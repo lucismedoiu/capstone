@@ -1,19 +1,22 @@
 import React from 'react';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
-import Main from './components/Main';
+import NavBar from './components/NavBar.js';
+import HeroSection from './components/HeroSection.js';
+import HighlightSection from './components/HighlightsSection.js';
+//import TestimonialsSection from './components/TestimonialSection.js';
+//import AboutSection from './components/AboutSection.js';
+import Footer from './components/Footer.js';
 import './App.css';
 
 function App() {
   return (
     <>
-      <Header />
-      <Nav />
-      <Main />
+      <NavBar />
+      <HeroSection />
+      <HighlightSection />
       <Footer />
     </>
   );
 }
 
 export default App;
+
