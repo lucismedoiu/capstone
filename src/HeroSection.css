@@ -12,6 +12,7 @@
     position: relative;
     overflow: visible;
     /* Allow overflow for the image */
+    box-sizing: border-box;
 }
 
 .hero-section .content {
@@ -36,8 +37,9 @@
 }
 
 .hero-section p {
+    font-family: 'Karla', serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight:normal;
     line-height: 21px;
     margin-top: 20px;
     color: #edefee;
@@ -48,12 +50,22 @@
     background-color: #F4CE14;
     color: #333333;
     border: none;
+    width: 200px;
+    height: 56px;
     padding: 15px 30px;
     border-radius: 16px;
     font-weight: 700;
     cursor: pointer;
     text-align: center;
     margin-top: 2%;
+}
+
+.reserve-button-text {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;/* Reserve a Table */
+    line-height: 21px;
 }
 
 .hero-image-wrapper {
@@ -63,7 +75,7 @@
     border-radius: 16px;
     overflow: visible;
     /* Allow the image to overflow the wrapper */
-    margin-right: 25%;
+    margin-right: 28%;
     /* Adds margin to the right side */
 }
 

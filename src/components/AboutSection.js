@@ -1,7 +1,7 @@
 import React from 'react';
-import '../AboutSection.css';
-//import image1 from './assets/image.svg';
-//import image2 from './assets/image-2.svg';
+import '../AboutSection.css'
+import image1 from '../assets/Mario and Adrian A.jpg';
+import image2 from '../assets/Mario and Adrian b.jpg';
 
 function AboutSection() {
   return (
@@ -14,8 +14,8 @@ function AboutSection() {
         </p>
       </div>
       <div className="image-container">
-        {/*<img src={image1} alt="Little Lemon" className="image" />
-        <img src={image2} alt="Little Lemon" className="image" />*/}
+        <img src={image1} alt="Little Lemon" className="image1" />
+        <img src={image2} alt="Little Lemon" className="image2" />
       </div>
     </div>
   );

@@ -10,11 +10,12 @@
     top: 0;
     z-index: 1000;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .logo {
     height: 65px;
-    margin-left: 22%;
+    margin-left: 18%;
 }
 
 .hamburger {
@@ -29,6 +30,7 @@
 
 
 .nav-links {
+    margin-left: 20px;
     list-style: none;
     display: flex;
     gap: 30px;

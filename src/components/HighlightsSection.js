@@ -1,47 +1,58 @@
 import React from 'react';
 import '../HighlightsSection.css';
+import imageCard1 from '../assets/greek salad.jpg';
+import imageCard2 from '../assets/bruchetta.svg';
+import imageCard3 from '../assets/lemon dessert.jpg';
+import scooterIcon from '../assets/delivery-icon.svg';
 
-const highlights = [
+
+const cards = [
   {
-    id: 1,
     title: 'Greek Salad',
     description: 'The famous greek salad made of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.',
     price: '£13.99',
-    image: require('../assets/greek salad.jpg').default,
-    orderImage: require('../assets/ride-scooter.png').default,
+    image: imageCard1,
+    icon: scooterIcon,
   },
   {
-    id: 2,
     title: 'Bruschetta',
     description: 'Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.',
     price: '£8.49',
-    image: require('../assets/bruchetta.svg').default,
-    orderImage: require('../assets/ride-scooter.png').default,
+    image: imageCard2,
+    icon: scooterIcon,
   },
   {
-    id: 3,
     title: 'Lemon Dessert',
     description: 'This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.',
     price: '£7.49',
-    image: require('../assets/lemon dessert.jpg').default,
-    orderImage: require('../assets/ride-scooter.png').default,
-  }
+    image: imageCard3,
+    icon: scooterIcon,
+  },
 ];
 
-const HighlightsSection = () => {
+function HighlightsSection() {
   return (
-    <div className="highlights-section">
-      <h2>This weeks Specials!</h2>
-      <div className="cards">
-        {highlights.map(item => (
-          <div key={item.id} className="card">
-            <img src={item.image} alt={item.title} className="card-image" />
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
-            <p className="price">{item.price}</p>
-            <div className="order">
-              <p>Order delivery</p>
-              <img src={item.orderImage} alt="Order delivery" />
+    <div className="highlights-container">
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <h1 className="highlights-title">This week's Specials!</h1>
+        <div className="button-container">
+          <span className="button-text">Online Menu</span>
+        </div>
+      </div>
+      <div className="card-container">
+        {cards.map((card, index) => (
+          <div key={index} className="card">
+            <img src={card.image} alt={card.title} />
+            <div className="card-content">
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <h2 className="card-title">{card.title}</h2>
+                <p className="card-price">{card.price}</p>
+              </div>
+              <p className="card-description">{card.description}</p>
+              <div className="card-footer">
+                <span className="footer-text">Order a delivery</span>
+                <img src={card.icon} alt="scooter icon" className="footer-icon" />
+              </div>
             </div>
           </div>
         ))}

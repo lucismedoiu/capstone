@@ -1,12 +1,12 @@
 import React from 'react';
 import '../TestimonialsSection.css';
-/*import starImage from './assets/stars.svg';
-import heroImage from './assets/hero-image.svg';
-import heroImage2 from './assets/hero-image-2.svg';
-import heroImage3 from './assets/hero-image-3.svg';
-import heroImage4 from './assets/hero-image-4.svg';*/
+import starImage from '../assets/Stars.svg';
+import heroImage from '../assets/Test-persona 1.jpg';
+import heroImage2 from '../assets/Test-persona 2.jpg';
+import heroImage3 from '../assets/Test-persona 3.jpg';
+import heroImage4 from '../assets/Test-persona 4.jpg';
 
-/*const testimonials = [
+const testimonials = [
   {
     quote: '“Delicious pasta and a cozy atmosphere!”',
     name: 'Jake B.',
@@ -31,11 +31,11 @@ import heroImage4 from './assets/hero-image-4.svg';*/
     stars: starImage,
     image: heroImage4,
   },
-];*/
+];
 
 function TestimonialsSection() {
   return (
- {/*}   <div className="testimonials-container">
+    <div className="testimonials-container">
       <h1 className="testimonials-title">Testimonials</h1>
       <div className="testimonials-grid">
         {testimonials.map((testimonial, index) => (
@@ -44,17 +44,19 @@ function TestimonialsSection() {
               <span>Rating</span>
               <img src={testimonial.stars} alt="Star rating" />
             </div>
+            <div class="testimonial-header">
             <img
               src={testimonial.image}
               alt={testimonial.name}
               className="testimonial-image"
             />
-            <div className="testimonial-name">{testimonial.name}</div>
+              <div className="testimonial-name">{testimonial.name}</div>
+              </div>
             <div className="testimonial-quote">{testimonial.quote}</div>
           </div>
         ))}
       </div>
-    </div>*/}
+    </div>
   );
 }
 
