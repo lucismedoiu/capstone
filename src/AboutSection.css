@@ -12,7 +12,7 @@
 
 .text-container {
     flex: 1;
-    min-width: 300px;
+    min-width: 350px;
     padding: 20px;
     margin-right: 50px;
 }
@@ -28,21 +28,21 @@
 
 .about-subtitle {
     font-family: 'Markazi Text', serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 40px;
     line-height: 48px;
     color: #333333;
-    margin-top: 0;
+    margin-top: -40px;
 }
 
 .about-description {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Karla';
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #333333;
     max-width: 276px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .image-container {
