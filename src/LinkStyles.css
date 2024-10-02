@@ -1,0 +1,21 @@
+/* Link styles */
+
+a:link {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:visited {
+    color: #333333;
+    /* Visited link color */
+}
+
+a:hover {
+    color: #495e57;
+    /* Change color on hover */
+}
+
+a:active {
+    color:#f4ce14;
+    /* Color for active link (during click) */
+}

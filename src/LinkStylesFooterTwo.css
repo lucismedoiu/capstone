@@ -1,0 +1,19 @@
+/* Link styles */
+.footer-container-v2 a:link {
+    text-decoration: none;
+}
+
+.footer-container-v2 a:visited {
+    color: #495e57;
+    /* Visited link color */
+}
+
+.footer-container-v2 a:hover {
+    color: #769389;
+    /* Change color on hover */
+}
+
+.footer-container-v2 a:active {
+    color:#f4ce14;
+    /* Color for active link (during click) */
+}

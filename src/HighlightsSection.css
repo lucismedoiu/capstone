@@ -27,8 +27,8 @@ body {
     text-align: center;
     cursor: pointer;
     margin-left: auto;
+    transition: all 0.3s ease-in-out;
 }
-
 
 
 .button-text {
@@ -36,6 +36,18 @@ body {
     font-weight: 700;
     font-size: 18px;
     color: #333333;
+}
+
+.button-container:hover {
+    transform: scale(1.1);
+}
+
+.button-text:hover {
+    color: #edefee;
+}
+
+.button-text:active {
+    color: #495e57;
 }
 
 .card-container {

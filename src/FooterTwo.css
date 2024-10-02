@@ -1,10 +1,10 @@
-.footer-container {
+.footer-container-v2 {
     font-family: 'Karla', sans-serif;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding: 40px 80px;
-    background-color: #546d64;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #546d64;
     margin: 0;
     gap: 60px;
 }
@@ -12,7 +12,7 @@
 .logo-container {
     display: flex;
     align-items: center;
-    margin-left: 0px;
+    margin-left: 50px;
 }
 
 .logo-container img {
@@ -26,11 +26,11 @@
     max-width: 200px;
 }
 
-.header {
+.header-v2 {
     font-family: 'Karla', sans-serif;
     font-weight: 900;
     font-size: 20px;
-    color: #f4ce14;
+    color:#333333;
     margin-bottom: 16px;
 }
 

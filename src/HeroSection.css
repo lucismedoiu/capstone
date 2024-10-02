@@ -58,9 +58,23 @@
     cursor: pointer;
     text-align: center;
     margin-top: 2%;
+    transition: all 0.3s ease-in-out;
+}
+.reserve-button-text:hover {
+    color: #edefee;
+}
+
+.reserve-button:hover {
+   transform: scale(1.1);
+}
+
+
+.reserve-button-text:active {
+    color: #495e57;
 }
 
 .reserve-button-text {
+    transition: all 0.3s ease-in-out;
     font-family: 'Karla', sans-serif;
     font-weight: 700;
     font-size: 18px;

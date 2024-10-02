@@ -1,0 +1,124 @@
+.booking-form {
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #333333;
+    text-transform: uppercase;
+    background-color: #edefee;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack the form fields vertically */
+    gap: 10px; /* Space between elements */
+    border-radius: 16px;
+    width: 400px;
+    box-shadow: 4px 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-box {
+    height: 167px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 16px;
+    border-radius: 16px;
+}
+
+.confirmed-booking-box h1 {
+    padding-top: 20px;
+    width: 300px;
+    margin-bottom: 0px;
+    height: 42px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+    flex:none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.booking-button {
+    background-color:#f4ce14;
+    padding: 15px;
+    border-radius: 16px;
+    width: 300px;
+    align-self: center;
+    color:#333333;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 20px;
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+.booking-button:hover {
+    transform: scale(1.1);
+    color: #edefee;
+}
+
+.booking-button:active {
+    color:#495e57;
+}
+
+
+.confirmed-booking-box p {
+    width: 232px;
+    height: 50px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.form-element {
+    font-family: 'Karla', sans-serif;
+    width: 200px;
+    text-align: center;
+    align-self: center;
+    font-size: medium;
+}
+
+.confirmed-form-container {
+    background-color: #546d64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85.4vh;
+}
+
+.confirmed-booking-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #edefee;
+    width: 450px;
+    height: 167px;
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.form-container {
+    background-color: #546d64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85.4vh;
+}
+.label {
+    padding-top: 30px;
+    text-align: center;
+}

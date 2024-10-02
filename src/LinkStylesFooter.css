@@ -1,0 +1,20 @@
+/* Link styles */
+.footer-container a:link {
+    text-decoration: none;
+}
+
+.footer-container a:visited {
+    color: #ffffff;
+    /* Visited link color */
+}
+
+.footer-container a:hover {
+    color: #333333;
+    /* Change color on hover */
+}
+
+.footer-container a:active {
+    color:#f4ce14;
+    /* Color for active link (during click) */
+}
+
