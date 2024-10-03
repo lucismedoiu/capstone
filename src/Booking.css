@@ -67,6 +67,10 @@
     color:#495e57;
 }
 
+.booking-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
 
 .confirmed-booking-box p {
     width: 232px;
@@ -89,6 +93,20 @@
     text-align: center;
     align-self: center;
     font-size: medium;
+    border: 1px solid #ccc;
+    transition: border 0.3s;
+}
+
+.form-element.error {
+    border: 1px solid red;
+    /* Red border for error state */
+}
+
+/* Optionally, style error messages */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
 }
 
 .confirmed-form-container {
